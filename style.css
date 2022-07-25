@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.container-cards {
+  width: 1200px;
+  display: flex;
+  margin: 50px auto;
+  position: relative;
+  padding: 20px;
+  
+}
+
+.cards {
+  height: 600px;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  align-items: flex-end;
+  margin: 5px;
+  transition: 1s ease;
+}
+
+.cards img {
+  width: 100px;
+  /* padding-bottom: 50px; */
+  border-radius: 100%;
+  margin: 10px;
+  border: 6px solid white;
+  /* margin-left: 50px; */
+
+}
+
+.card1, .card2, .card3, .card4 {
+  min-width: 5%;
+}
+
+.cards h3 {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  width: 100%;
+  color: white;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  display: none;
+  transition: opacity 1s ease;
+}
+
+.cards.active h3 {
+  display: block;
+}
+
+
+.card1 {
+  background-image: url('https://images.alphacoders.com/927/thumb-1920-927310.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card2 {
+  background-image: url('https://images7.alphacoders.com/981/thumb-1920-981302.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card3 {
+  background-image: url('https://images.alphacoders.com/112/thumb-1920-1126928.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card4 {
+  background-image: url('https://admin.ultimatodobacon.com/wp-content/uploads/2019/05/Homem-Aranha-Uniforme-Negro-Wall-1024x717.jpg');
+  /* background-image: url('https://images.alphacoders.com/884/thumb-1920-884708.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.active {
+  flex: 1;
+}
