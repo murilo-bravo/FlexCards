@@ -31,11 +31,9 @@ body {
 
 .cards img {
   width: 100px;
-  /* padding-bottom: 50px; */
   border-radius: 100%;
   margin: 10px;
   border: 6px solid white;
-  /* margin-left: 50px; */
 
 }
 
@@ -44,7 +42,6 @@ body {
 }
 
 .cards h3 {
-  /* background-color: rgba(0, 0, 0, 0.6); */
   width: 100%;
   color: white;
   margin-bottom: 40px;
@@ -81,7 +78,6 @@ body {
 
 .card4 {
   background-image: url('https://admin.ultimatodobacon.com/wp-content/uploads/2019/05/Homem-Aranha-Uniforme-Negro-Wall-1024x717.jpg');
-  /* background-image: url('https://images.alphacoders.com/884/thumb-1920-884708.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
